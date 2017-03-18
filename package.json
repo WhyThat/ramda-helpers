@@ -9,7 +9,7 @@
   "scripts": {
     "prebuild": "eslint lib test",
     "build": "rollup -c",
-    "doc": "jsdoc -c node_modules/ink-docstrap/template/jsdoc.conf.json -t node_modules/ink-docstrap/template -R README.md -r lib/ --verbose",
+    "doc": "jsdoc -c node_modules/ink-docstrap/template/jsdoc.conf.json -t node_modules/ink-docstrap/template -r lib/ --verbose",
     "watch": "rollup -c -w",
     "pretest": "npm run build",
     "test": "jest"

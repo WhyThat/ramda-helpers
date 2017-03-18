@@ -1,5 +1,3 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
 exports[`renameKeysBy With complex object returns correct result 1`] = `
 Object {
   "prefix_test": Object {
