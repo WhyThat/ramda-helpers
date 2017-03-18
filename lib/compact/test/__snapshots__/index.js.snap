@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`orderByDesc With an empty list returns correct result 1`] = `Array []`;
+
+exports[`orderByDesc With elements returns correct result 1`] = `
+Array [
+  1,
+  "test",
+]
+`;
+
+exports[`orderByDesc With one falsey elements returns correct result 1`] = `Array []`;

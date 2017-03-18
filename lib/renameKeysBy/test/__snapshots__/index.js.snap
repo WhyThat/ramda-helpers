@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renameKeysBy With complex object returns correct result 1`] = `
+Object {
+  "prefix_test": Object {
+    "prefix_test2": Array [
+      Object {
+        "prefix_test2_1": Array [
+          Object {
+            "prefix_test2_1_1": "",
+          },
+        ],
+      },
+      Object {
+        "prefix_test2_2": "",
+      },
+    ],
+  },
+}
+`;
+
+exports[`renameKeysBy With empty object returns correct result 1`] = `Object {}`;
+
+exports[`renameKeysBy With nested object returns correct result 1`] = `
+Object {
+  "prefix_test": Object {
+    "prefix_test2": "",
+  },
+}
+`;
+
+exports[`renameKeysBy With simple object returns correct result 1`] = `
+Object {
+  "prefix_test": "",
+}
+`;

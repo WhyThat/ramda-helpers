@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`isNotPlainObject With array returns correct result 1`] = `true`;
+
+exports[`isNotPlainObject With function returns correct result 1`] = `true`;
+
+exports[`isNotPlainObject With null returns correct result 1`] = `true`;
+
+exports[`isNotPlainObject With object returns correct result 1`] = `false`;
+
+exports[`isPlainObject With array returns correct result 1`] = `false`;
+
+exports[`isPlainObject With function returns correct result 1`] = `false`;
+
+exports[`isPlainObject With null returns correct result 1`] = `false`;
+
+exports[`isPlainObject With object returns correct result 1`] = `true`;

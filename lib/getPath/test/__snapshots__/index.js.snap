@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPath With a array predicate and falsy path (deepth == 1) returns correct result 1`] = `undefined`;
+
+exports[`getPath With a array predicate and falsy path (deepth > 1) returns correct result 1`] = `undefined`;
+
+exports[`getPath With a array predicate and truthy path (deepth == 1) returns correct result 1`] = `
+Object {
+  "b": Object {
+    "c": Object {},
+  },
+}
+`;
+
+exports[`getPath With a array predicate and truthy path (deepth > 1) returns correct result 1`] = `
+Object {
+  "c": Object {},
+}
+`;
+
+exports[`getPath With a string predicate and falsy path (deepth == 1) returns correct result 1`] = `undefined`;
+
+exports[`getPath With a string predicate and falsy path (deepth > 1) returns correct result 1`] = `undefined`;
+
+exports[`getPath With a string predicate and truthy path (deepth == 1) returns correct result 1`] = `
+Object {
+  "b": Object {
+    "c": Object {},
+  },
+}
+`;
+
+exports[`getPath With a string predicate and truthy path (deepth > 1) returns correct result 1`] = `
+Object {
+  "c": Object {},
+}
+`;
+
+exports[`getPath With empty array predicate and an object returns correct result 1`] = `
+Object {
+  "a": Object {
+    "b": Object {
+      "c": Object {},
+    },
+  },
+}
+`;
+
+exports[`getPath With empty props returns correct result 1`] = `undefined`;
+
+exports[`getPath With empty string predicate and an object returns correct result 1`] = `undefined`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`descOrderBy Should be a function returns correct result 1`] = `"function"`;
+
+exports[`descOrderBy With a non ordered array of object returns correct result 1`] = `
+Array [
+  Object {
+    "b": 4,
+  },
+  Object {
+    "b": 3,
+  },
+  Object {
+    "b": 2,
+  },
+  Object {
+    "a": 5,
+    "b": 1,
+  },
+]
+`;
+
+exports[`descOrderBy With empty args returns correct result 1`] = `Array []`;
+
+exports[`descOrderBy With key not present in any object returns correct result 1`] = `
+Array [
+  Object {
+    "a": 5,
+    "b": 1,
+  },
+  Object {
+    "b": 4,
+  },
+  Object {
+    "b": 2,
+  },
+  Object {
+    "b": 3,
+  },
+]
+`;
+
+exports[`descOrderBy With key present only in few object returns correct result 1`] = `
+Array [
+  Object {
+    "b": 4,
+    "c": 6,
+  },
+  Object {
+    "a": 5,
+    "b": 1,
+    "c": 3,
+  },
+  Object {
+    "b": 2,
+  },
+  Object {
+    "b": 3,
+  },
+]
+`;

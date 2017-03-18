@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maxByKey With null returns correct result 1`] = `null`;
+
+exports[`maxByKey key defined returns correct result 1`] = `
+Object {
+  "a": 6,
+}
+`;
+
+exports[`maxByKey key not defined in nested object returns correct result 1`] = `
+Object {
+  "a": 0,
+}
+`;

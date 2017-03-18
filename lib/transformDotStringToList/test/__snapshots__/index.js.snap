@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransformDotStringToList With an empty array returns correct result 1`] = `Array []`;
+
+exports[`TransformDotStringToList With an empty string returns correct result 1`] = `
+Array [
+  "",
+]
+`;
+
+exports[`TransformDotStringToList With array returns correct result 1`] = `
+Array [
+  "a",
+  "b",
+  "c",
+]
+`;
+
+exports[`TransformDotStringToList With dotted string returns correct result 1`] = `
+Array [
+  "a",
+  "b",
+  "c",
+]
+`;

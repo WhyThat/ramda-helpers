@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`strToCamelCase With camelCase string returns correct result 1`] = `"camelCaseString"`;
+
+exports[`strToCamelCase With dashes returns correct result 1`] = `"strWithDashes"`;
+
+exports[`strToCamelCase With empty string returns correct result 1`] = `""`;
+
+exports[`strToCamelCase With first char un uppercase returns correct result 1`] = `"strWithUpperCase"`;
+
+exports[`strToCamelCase With random string returns correct result 1`] = `"iamRandomString"`;

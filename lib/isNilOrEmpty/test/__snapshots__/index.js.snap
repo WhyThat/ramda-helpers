@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`isNilOrEmpty With  an no empty string returns correct result 1`] = `false`;
+
+exports[`isNilOrEmpty With empty array returns correct result 1`] = `true`;
+
+exports[`isNilOrEmpty With empty object returns correct result 1`] = `true`;
+
+exports[`isNilOrEmpty With empty string returns correct result 1`] = `true`;
+
+exports[`isNilOrEmpty With false returns correct result 1`] = `false`;
+
+exports[`isNilOrEmpty With no empty array returns correct result 1`] = `false`;
+
+exports[`isNilOrEmpty With no empty object returns correct result 1`] = `false`;
+
+exports[`isNilOrEmpty With null returns correct result 1`] = `true`;
+
+exports[`isNilOrEmpty With undefined returns correct result 1`] = `true`;
