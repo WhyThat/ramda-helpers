@@ -31,26 +31,10 @@ const bundles = [
   },
   {
     format: 'cjs',
-    ext: '.browser.js',
-    plugins: [],
-    babelPresets: ['es2015-rollup', 'stage-1'],
-    babelPlugins: [],
-  },
-  {
-    format: 'umd',
-    ext: '.js',
-    plugins: [],
-    babelPresets: ['es2015-rollup', 'stage-1'],
-    babelPlugins: [],
-    moduleName: 'ramda-helpers',
-  },
-  {
-    format: 'umd',
     ext: '.min.js',
     plugins: [uglify()],
     babelPresets: ['es2015-rollup', 'stage-1'],
     babelPlugins: [],
-    moduleName: 'ramda-helpers',
     minify: true,
   },
 ];
