@@ -1,0 +1,85 @@
+
+{
+  "parser": "babel-eslint",
+  "root": true,
+  "extends": [
+    "airbnb"
+  ],
+  "installedESLint": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "plugins": [
+    "compat",
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "globals": {
+    "jest": false,
+    "CONFIG": false,
+    "APP_VERSION": false
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "off"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-underscore-dangle": [
+      0
+    ],
+    "react/jsx-indent": [
+      "error",
+      2
+    ],
+    "react/jsx-indent-props": [
+      "error",
+      2
+    ],
+    "react/jsx-first-prop-new-line": [
+      "error",
+      "multiline"
+    ],
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [
+          ".jsx"
+        ]
+      }
+    ],
+    "jsx-quotes": [
+      2,
+      "prefer-single"
+    ],
+    "max-len": [
+      "error",
+      110
+    ],
+    "react/prefer-stateless-function": [
+      1
+    ],
+    "react/no-unused-prop-types": [
+      "off",
+      {
+        "skipShapeProps": true
+      }
+    ]
+  },
+  "settings": {
+    "targets": ["chrome >= 28", "firefox >= 49", "edge", "safari >= 8"]
+  }
+}

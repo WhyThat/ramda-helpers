@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`isSet With an non-empty array returns correct result 1`] = `true`;
+
+exports[`isSet With an non-empty object returns correct result 1`] = `true`;
+
+exports[`isSet With empty array returns correct result 1`] = `false`;
+
+exports[`isSet With empty object returns correct result 1`] = `false`;
+
+exports[`isSet With empty string returns correct result 1`] = `false`;
+
+exports[`isSet With null returns correct result 1`] = `false`;
+
+exports[`isSet With undefined returns correct result 1`] = `false`;

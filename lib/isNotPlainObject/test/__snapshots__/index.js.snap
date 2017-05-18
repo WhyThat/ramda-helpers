@@ -1,0 +1,7 @@
+exports[`isNotPlainObject With array returns correct result 1`] = `true`;
+
+exports[`isNotPlainObject With function returns correct result 1`] = `true`;
+
+exports[`isNotPlainObject With null returns correct result 1`] = `true`;
+
+exports[`isNotPlainObject With object returns correct result 1`] = `false`;
