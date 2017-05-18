@@ -52,32 +52,11 @@ Retrieve the value at the given path
 
 ```javascript
 getPath('a.b.c', { a: { b : { c : 'value' } } })  //=> 'value'
- getPath(['a', 'b', 'c'], { a: { b : { c : 'value' } } })  //=> 'value'
- getPath(['a', 'c', 'd'], { a: { b : { c : 'value' } } })  //=> undefined
+getPath(['a', 'b', 'c'], { a: { b : { c : 'value' } } })  //=> 'value'
+getPath(['a', 'c', 'd'], { a: { b : { c : 'value' } } })  //=> undefined
 ```
 
 Returns **any** The data at `path`
-
-### maxByKey
-
-ramda-helper
-
-### maxByKey
-
-Returns the object which have the greater value by the key, \* otherwise returns default object
-
-**Parameters**
-
--   `defaultObject` **any** 
--   `Array`  
-
-**Examples**
-
-```javascript
-maxByKey('a', { a: 0 }, [{ a: 6 }, { a: 5 }]) //=> { a: 6 }
-```
-
-Returns **any** 
 
 ### isArray
 
@@ -201,7 +180,7 @@ Returns **[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 ### isPathSatisfied
 
 Returns `true` if the specified object property at given path isSet @see isSet
- returns `false` otherwise
+returns `false` otherwise
 
 **Parameters**
 
@@ -212,8 +191,8 @@ Returns `true` if the specified object property at given path isSet @see isSet
 
 ```javascript
 isPathSatisfied('a.b.c', { a: { b: { c: 'c'} } }) //=> true
- isPathSatisfied(['a', 'b', 'c'], { a: { b: { c: 'c'} } }) //=> true
- isPathSatisfied('a.c.d', { a: { b: { c: 'c'} } }) //=> false
+isPathSatisfied(['a', 'b', 'c'], { a: { b: { c: 'c'} } }) //=> true
+isPathSatisfied('a.c.d', { a: { b: { c: 'c'} } }) //=> false
 ```
 
 Returns **[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
@@ -260,6 +239,23 @@ isSet({ a: 1 }) //=> true
 ```
 
 Returns **[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
+
+### maxByKey
+
+Returns the object which have the greater value by the key, \* otherwise returns default object
+
+**Parameters**
+
+-   `defaultObject` **any** 
+-   `Array`  
+
+**Examples**
+
+```javascript
+maxByKey('a', { a: 0 }, [{ a: 6 }, { a: 5 }]) //=> { a: 6 }
+```
+
+Returns **any** 
 
 ### renameKeysBy
 
