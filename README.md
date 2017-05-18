@@ -13,6 +13,15 @@ Whit npm
 ```bash
 npm install --save ramda-helpers
 ```
+## USage
+
+You have to import helpers like any other ES6 module
+```javascript
+import ramdahelper from 'ramda-helpers'
+
+ramdaHelper.isNilOrEmpty(null) //=> true
+```
+
 
 ## API
 
